@@ -4,7 +4,7 @@
 const OPTIONAL_RULES = {
   comments: `#comments { display: none !important; }`,
   homescreen: `
-    ytd-rich-grid-renderer,
+    ytd-rich-grid-renderer, div[tab-identifier="FEwhat_to_watch"],
     ytd-browse[page-subtype="home"] #contents {
       display: none !important;
     }
